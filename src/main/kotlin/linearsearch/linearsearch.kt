@@ -1,0 +1,4 @@
+package linearsearch
+
+class linearsearch {
+}
