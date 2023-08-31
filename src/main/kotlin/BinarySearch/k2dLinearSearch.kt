@@ -1,4 +1,4 @@
-package linearsearch
+package BinarySearch
 
 
 fun main(){

@@ -1,4 +1,0 @@
-package linearsearch
-
-class linearsearch {
-}
