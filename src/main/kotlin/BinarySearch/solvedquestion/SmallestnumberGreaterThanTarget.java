@@ -9,7 +9,7 @@ public class SmallestnumberGreaterThanTarget {
 
         char out= newSearch(input, target);
         System.out.println(out);
-    }
+     }
 
 
 
