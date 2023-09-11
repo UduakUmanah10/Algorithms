@@ -11,7 +11,7 @@ import java.util.Arrays;
  *
  */
 
-public class startandEndpointofanArrayElement {
+public class orderagnosticarray {
 
     public static void main(String[] args) {
         int[] input = {5,7,7,8,8,8,10};
