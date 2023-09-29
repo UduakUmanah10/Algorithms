@@ -14,7 +14,7 @@ public class mountainarray {
         int start = 0;
         int end = input.length-1;
 
-        while (start<end){
+        while (start < end){
             int mid = start+(end -start)/2;
 
             if(input[mid] > input[mid+1]){
@@ -27,4 +27,6 @@ public class mountainarray {
         return input[start];
 
     }
+
+
 }

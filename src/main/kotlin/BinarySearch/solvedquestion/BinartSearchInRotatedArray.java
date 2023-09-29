@@ -69,6 +69,8 @@ public class BinartSearchInRotatedArray {
             if( startPoint < midPoint && input[midPoint] < input[midPoint-1]){
                 return  midPoint -1;
             }
+
+            //here we make use of the start and mid-point to identify  the  largest element
             if(input[startPoint] >= input[midPoint]){
                 endPoint = midPoint -1;
             }
@@ -84,6 +86,8 @@ public class BinartSearchInRotatedArray {
 
         return -1;
     }
+
+
     public static int findMaximumElementInRotatedDuplicateArray(int[] input){
 
         int startPoint = 0;
