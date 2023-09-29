@@ -63,7 +63,7 @@ public class BinarySearch
     }
 
     static int orderAgnosticBinarySearch(int []input, int target){
-        boolean isAscending =input[0]< input[input.length -1];
+        boolean isAscending = input[0]< input[input.length -1];
         if(isAscending){
            return AscBinarySearch(input,target);
         }
