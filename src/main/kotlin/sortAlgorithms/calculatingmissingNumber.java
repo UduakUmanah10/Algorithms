@@ -16,6 +16,7 @@ public class calculatingmissingNumber {
         while (startPoint < inputArray.length){
             int correctIndex = inputArray[startPoint];
 
+            //for revision purposes this is an important check parameter to prevent out of bound exception
             if( inputArray[startPoint] < inputArray.length && inputArray[startPoint] != inputArray[correctIndex]){
                 swap(inputArray, startPoint, correctIndex);
             }else {
@@ -23,17 +24,16 @@ public class calculatingmissingNumber {
             }
         }
 
+
         for (int index = 0; index < inputArray.length; index++) {
             if(inputArray[index]!= index){
                 return index;
             }
-
         }
-
         return inputArray.length;
-
-
     }
+
+
 
     private static void swap(int[] inputArray, int first, int second) {
         int temp = inputArray[first];
