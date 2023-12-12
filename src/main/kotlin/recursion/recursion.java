@@ -1,4 +1,8 @@
 package recursion;
+/**
+ *always check if you need a return type
+ *
+* */
 
 public class recursion {
 
