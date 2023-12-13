@@ -5,6 +5,8 @@ public class factorofanumber {
     public static void main(String[] args) {
 
     }
+    // because the two multiples are  divisible by the number
+    // only check till the square root.
 
 
     public  static void factor(int input){
@@ -22,4 +24,11 @@ public class factorofanumber {
 
 
     }
+
+
+
+
+
+
+
 }
